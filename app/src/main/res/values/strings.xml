@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">On my bike - Chapter 4</string>
+    <string name="title_activity_timer">Timer</string>
+
+    <string name="start_button">Start</string>
+    <string name="stop_button">Stop</string>
+    <string name="action_settings">Settings</string>
+</resources>

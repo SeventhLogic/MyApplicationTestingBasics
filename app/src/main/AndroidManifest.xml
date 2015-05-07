@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cyrus.chapter4" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/title_activity_timer"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".TimerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"><!-- NOTE made this because swap behavior is acting up and is much deeper than I have time to find right now
+            OTHER NOTE this is a pretty cool comment system-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
